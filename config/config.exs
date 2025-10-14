@@ -1,6 +1,8 @@
 import Config
 
-config :ash_cloak_auto_arguments, ecto_repos: [AshCloakAutoArguments.Repo]
+config :ash_cloak_auto_arguments,
+  ecto_repos: [AshCloakAutoArguments.Repo],
+  ash_domains: [AshCloakAutoArguments.Todos, AshCloakAutoArguments.Todos]
 
 config :ash,
   allow_forbidden_field_for_relationships_by_default?: true,

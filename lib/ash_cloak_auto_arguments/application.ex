@@ -5,7 +5,7 @@ defmodule AshCloakAutoArguments.Application do
 
   @impl true
   def start(_type, _args) do
-    children = [AshCloakAutoArguments.Repo]
+    children = [AshCloakAutoArguments.Vault, AshCloakAutoArguments.Repo]
 
     opts = [strategy: :one_for_one, name: AshCloakAutoArguments.Supervisor]
     Supervisor.start_link(children, opts)

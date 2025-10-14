@@ -28,7 +28,7 @@ defmodule AshCloakAutoArguments.MixProject do
       {:sourceror, "~> 1.8", only: [:dev, :test]},
       {:ash_cloak, "~> 0.1"},
       {:cloak, "~> 1.0"},
-      {:ash_sqlite, "~> 0.2"},
+      {:ash_postgres, "~> 2.0"},
       {:ash, "~> 3.0"},
       {:igniter, "~> 0.6", only: [:dev, :test]}
       # {:dep_from_hexpm, "~> 0.3.0"},

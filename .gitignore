@@ -21,3 +21,5 @@ ash_cloak_auto_arguments-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.elixir_ls
