@@ -2,20 +2,9 @@
 
 This repo is a minimal reproduction of an issue in AshCloak which causes all actions to accept encrypted attributes as an input.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ash_cloak_auto_arguments` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:ash_cloak_auto_arguments, "~> 0.1.0"}
-  ]
-end
+# Reproducing the issue
+There's a failing test showcasing the issue. 
+Run 
+```bash 
+mix test
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/ash_cloak_auto_arguments>.
-
