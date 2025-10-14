@@ -1,6 +1,6 @@
 # AshCloakAutoArguments
 
-This repo is a reproduction of a bug in 
+This repo is a minimal reproduction of an issue in AshCloak which causes all actions to accept encrypted attributes as an input.
 
 ## Installation
 
